@@ -1,0 +1,12 @@
+{
+  "name": "paylike-currency-select",
+  "description": "A ReactJS module for https://github.com/paylike/currencies/",
+  "repository": "paylike/react-currency-select",
+  "main": "index.js",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "0.14.2",
+    "paylike-currencies": "paylike/currencies#v1.0.x"
+  },
+  "license": "MIT"
+}
