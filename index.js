@@ -15,6 +15,8 @@ function render( props ){
 			props.onChange && props.onChange(e.target.value);
 		},
 	},
+		props.initial && ce('option', { value: '' }, props.initial),
+
 		currencies.map(function( c ){
 			if (props.funding && !c.funding)
 				return;

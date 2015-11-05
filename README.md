@@ -28,8 +28,9 @@ ReactDOM.render(CurrencySelect, {
 /*
 	value,
 	required,
+	initial,		// set a text to display in an initial option
 	className,
-	funding,	// show only funding currencies
+	funding,		// show only funding currencies
 
 	onChange: function( currency ){},
 */
