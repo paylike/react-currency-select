@@ -1,7 +1,7 @@
 'use strict';
 
 var ce = require('react').createElement;
-var currencies = require('paylike-currencies');
+var currencies = require('@paylike/currencies');
 
 module.exports = render;
 
