@@ -12,17 +12,14 @@ your application will work. Like so:
 
 ```json
 "dependencies": {
-	"paylike-currency-select": "paylike/react-currency-select#v1.x"
+	"@paylike/react-currency-select": "^1.0.0"
 }
 ```
-
-This will keep you on the `1.x` branch which will not have breaking changes
-merged.
 
 ```js
 
 var ReactDOM = require('react-dom');
-var CurrencySelect = require('react-currency-select');
+var CurrencySelect = require('@paylike/react-currency-select');
 
 ReactDOM.render(CurrencySelect, {
 /*
@@ -37,4 +34,3 @@ ReactDOM.render(CurrencySelect, {
 });
 
 ```
-
