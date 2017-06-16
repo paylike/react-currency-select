@@ -3,7 +3,7 @@
   "description": "A ReactJS module for https://github.com/paylike/currencies/",
   "repository": "paylike/react-currency-select",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@paylike/currencies": "^3.0.1",
     "react": "^15.4.2"

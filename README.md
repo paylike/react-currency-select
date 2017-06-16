@@ -12,7 +12,7 @@ your application will work. Like so:
 
 ```json
 "dependencies": {
-	"@paylike/react-currency-select": "^1.0.0"
+	"@paylike/react-currency-select": "^1.0.1"
 }
 ```
 
