@@ -28,6 +28,7 @@ ReactDOM.render(CurrencySelect, {
 	initial,		// set a text to display in an initial option
 	className,
 	funding,		// show only funding currencies
+	deprecated,		// include deprecated currencies
 
 	onChange: function( currency ){},
 */
