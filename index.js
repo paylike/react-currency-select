@@ -27,6 +27,8 @@ function render( props ){
 		currencies.map(function( c ){
 			if (props.funding && !c.funding)
 				return;
+			if (!props.deprecated && c.deprecated)
+				return;
 
 			return ce('option', { 
 				value: c.code,

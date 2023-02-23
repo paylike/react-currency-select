@@ -5,7 +5,7 @@
   "main": "index.js",
   "version": "1.0.1",
   "dependencies": {
-    "@paylike/currencies": "^3.0.1",
+    "@paylike/currencies": "^4.2.0",
     "react": "^15.4.2"
   },
   "license": "MIT"
