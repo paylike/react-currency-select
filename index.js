@@ -29,6 +29,10 @@ function render( props ){
 				return;
 			if (!props.deprecated && c.deprecated)
 				return;
+			if (Array.isArray(props.exclude) && props.exclude.includes(c.code))
+				return;
+			if (typeof props.filter === 'function' && !props.filter(c))
+				return;
 
 			return ce('option', { 
 				value: c.code,

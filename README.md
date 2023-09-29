@@ -29,6 +29,8 @@ ReactDOM.render(CurrencySelect, {
 	className,
 	funding,		// show only funding currencies
 	deprecated,		// include deprecated currencies
+	exclude, // Array of currency codes to exclude
+	filter, // function to filter currencies (( { code, currency, numeric, exponent } ) => Boolean)
 
 	onChange: function( currency ){},
 */
